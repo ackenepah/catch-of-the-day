@@ -12,6 +12,7 @@ class App extends React.Component {
 
     this.addFish = this.addFish.bind(this);
     this.loadSamples = this.loadSamples.bind(this);
+
     // getInitialState
     this.state = {
       fishes: {},
